@@ -1,0 +1,2 @@
+# Training
+JS, TypeScirpt, Angular 
