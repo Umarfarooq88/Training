@@ -19,3 +19,19 @@ const product_Tile={
     Price: 20,
     offer: 5
 }
+
+//Comparison
+/*ex:*/ let a= 5;
+    let b="5"
+
+      console.log(a==b); //true , but one is string and other is number , internally the string got converted to number , to avoid this we use !==
+      console.log(a!=b); // false
+
+      console.log(a===b); // false ------ checks if equal , also checks type 
+      console.log(a!==b) // true ------
+      
+      
+//Ternary
+let age=22;
+let result= age>18?"can vote":"can't vote";
+console.log(result);

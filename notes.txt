@@ -1,0 +1,14 @@
+Comparison
+->TO compare only content
+  == or !=
+->To compare both number and type
+  ex: let a= 5;
+      let b="5"
+
+      a==b //true , but one is string and other is number , internally the string got converted to number , to avoid this we use !==
+      a!=b // false
+
+      a===b // false ------ checks if equal , also checks type 
+      a!==b // true ------
+
+
