@@ -35,3 +35,20 @@ const product_Tile={
 let age=22;
 let result= age>18?"can vote":"can't vote";
 console.log(result);
+
+
+//Alert
+alert("You just witnessed an alert message");
+
+//Popup--> give prompt also takes input
+let name= prompt("Enter number");
+console.log(name);
+
+if(name%5==0){
+    console.log("Multiple of 5");
+}else{
+    console.log("Not multiple of 5");
+} 
+
+
+
