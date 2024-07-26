@@ -51,4 +51,20 @@ if(name%5==0){
 } 
 
 
+//Array
+// -----> Splice method
+let food=["apple","banana","litchi","rice","daal"];
+console.log(food.slice(0,3));//To get a part of arr---> ['apple', 'banana', 'litchi']
+console.log(food.splice(1,2,"n","w"));//TO delete and add at particular index----> ['apple', 'n', 'w', 'rice', 'daal']
+console.log(food.splice(1,2)) //To delete----> ['apple', 'rice', 'daal']
+console.log(food.splice(1,0,"n","w"))//To add -----> ['apple', 'n', 'w', 'banana', 'litchi', 'rice', 'daal']
+console.log(food.splice(1,1,"new ele"));//To replace -----> ['apple', 'new ele', 'litchi', 'rice', 'daal']
+console.log(food.splice(2));//Delete all after the index ---->['apple', 'banana']
+
+
+
+
+
+
+
 
