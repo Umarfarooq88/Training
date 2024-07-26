@@ -17,7 +17,7 @@ Interpolation
 suppose we hv a var = batch value to this will come after fetching from DB then,
 we can write it as 
 
-let output=`Calculating ${batch}+10;
+let output=`Calculating ${batch}`+10;
 con.log(output)
 
 
