@@ -33,6 +33,15 @@ console.log("Inner text of div1 -->",firstdiv.innerText);
 console.log("Inner HTML of div1 -->",firstdiv.innerHTML);
 
 
+//to get attribute
+let para=document.querySelector("p");
+console.log(para.getAttribute("class"));//paraclass
+
+//set attribute
+console.log(para.setAttribute("class","new attribute"));// first para class name changed to "new attribute"
+
+
+
 
 
 
