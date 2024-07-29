@@ -40,6 +40,22 @@ console.log(para.getAttribute("class"));//paraclass
 //set attribute
 console.log(para.setAttribute("class","new attribute"));// first para class name changed to "new attribute"
 
+//creating inserting
+let newbtn=document.createElement("button");
+newbtn.innerText="I'm a buttton";
+//append --> at the end
+let insertingInDiv=document.querySelector("div");
+insertingInDiv.append(newbtn);
+
+//prepend --> at the start
+insertingInDiv.prepend(newbtn);
+
+//outside the node but before it
+console.log(second_div);
+second_div.before(newbtn);
+
+//outisde but after
+second_div.after(newbtn);
 
 
 
