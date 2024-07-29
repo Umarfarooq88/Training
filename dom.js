@@ -26,6 +26,12 @@ console.log("div2 first child ",second_div.firstChild);//first child  -->h1
 console.log("div1 last child ",second_div.lastChild);//last child   -->h2
 console.log("div1 [1] child ",second_div.children[1]);// particular child -->p
 
+//inner text
+console.log("Inner text of div1 -->",firstdiv.innerText);
+
+//inner HTML
+console.log("Inner HTML of div1 -->",firstdiv.innerHTML);
+
 
 
 
