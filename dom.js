@@ -8,7 +8,7 @@ console.dir(window.document);// To show the properties of doc.
 let ele=document.querySelector("p");//gets the first para in html
 console.log(ele);
 //Tag name
-ele.tagName;//gives the type of the ele.
+console.log(ele.tagName);//gives the type of the ele.
 
 //children nodes
 let firstdiv=document.querySelector("div");
@@ -23,7 +23,7 @@ let second_div=document.querySelectorAll("div")[1];
 console.log(second_div);
 
 console.log("div2 first child ",second_div.firstChild);//first child  -->h1
-console.log("div1 last child ",second_div.lastChild);//last child   -->h2
+console.log("div2 last child ",second_div.lastChild);//last child   -->h2
 console.log("div1 [1] child ",second_div.children[1]);// particular child -->p
 
 //inner text
@@ -38,7 +38,7 @@ let para=document.querySelector("p");
 console.log(para.getAttribute("class"));//paraclass
 
 //set attribute
-console.log(para.setAttribute("class","new attribute"));// first para class name changed to "new attribute"
+console.log(para.setAttribute("class","new para class"));// first para class name changed to "new attribute"
 
 //creating inserting
 let newbtn=document.createElement("button");
